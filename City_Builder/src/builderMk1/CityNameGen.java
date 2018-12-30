@@ -12,7 +12,7 @@ public class CityNameGen {
 		
 		String name;
 		Random rand  = new Random();
-		int numb = rand.nextInt(159);
+		int numb = rand.nextInt(553);
 		int counter = 0;
 		
 		while ((name = br.readLine()) != null) {
